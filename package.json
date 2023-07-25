@@ -1,7 +1,7 @@
 {
   "name": "@ghostswappulse/ghost-swap-core",
   "description": "Core contracts for the ghost protocol",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://ghostswap.app",
   "repository": {
     "type": "git",

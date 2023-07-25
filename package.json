@@ -1,0 +1,34 @@
+{
+  "name": "@ghostswap-libs/ghost-swap-core",
+  "description": "Core contracts for the ghost protocol",
+  "version": "0.1.0",
+  "homepage": "https://ghostswap.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GhostSwapPulse/ghost-swap-core.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "chai": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "ethereumjs-util": "^6.2.0",
+    "hardhat": "^2.17.0",
+    "solc": "0.5.16"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "GPL-3.0-or-later"
+}

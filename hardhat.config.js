@@ -20,7 +20,11 @@ module.exports = {
       chainId: 369,
       url: "https://rpc.pulsechain.com/",
       accounts: (process.env.PKEYS || "").split(","),
-      gasPrice: 5e10
+      // gasPrice: 5e10,
+      urls: {
+        apiURL: "https://scan.pulsechain.com/api",
+        browserURL: "https://scan.pulsechain.com"
+      }
     }
   },
   etherscan: {

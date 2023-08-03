@@ -28,7 +28,9 @@
     "solc": "0.5.16"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "deploy-test": "hardhat run scripts/deploy.js --network testnet",
+    "deploy-main": "hardhat run scripts/deploy.js --network mainnet"
   },
   "license": "GPL-3.0-or-later"
 }

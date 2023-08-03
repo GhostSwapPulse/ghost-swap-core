@@ -7,7 +7,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const feeToSetter = "0xb9eD1414c450A599919Ff6d40eE8a62361Ba3eEb";
+  const feeToSetter = "0x239581446037226DCF421B1Cfc186e5583CB8C97";
 
   const factory = await hre.ethers.deployContract("GhostFactory", [feeToSetter]);
 
